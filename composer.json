@@ -1,0 +1,15 @@
+{
+    "name": "palatinum/BoundedBiz",
+    "description": "Paquete modular para gestión empresarial con arquitectura hexagonal y DDD.",
+    "type": "library",
+    "license": "AGPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "BoundedBiz\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0"
+    }
+}
